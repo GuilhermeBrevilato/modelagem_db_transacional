@@ -1,4 +1,4 @@
-Modelagem de Banco de Dados Transacional para Rede de Varejo
+## Modelagem de Banco de Dados Transacional para Rede de Varejo
 
 **Visão Geral**
 
@@ -7,7 +7,7 @@ Este projeto tem como objetivo modelar um banco de dados transacional para uma r
 
 
 
-📊 Objetivo
+📊 Objetivos
 
 Criar um banco de dados relacional estruturado, garantindo:
 
@@ -24,13 +24,16 @@ Escalabilidade: Estrutura que permite futuras expansões, como vendas online.
 
 2. **modelagem**
    - `modelo_conceitual`
-     -  `modelo_conceitual.pdf`
-     -  `modelo_conceitual.png`
+     -  [`modelo_conceitual.pdf`](https://github.com/GuilhermeBrevilato/modelagem_db_transacional/blob/main/Modelo%20Conceitual.pdf)
+     -  [`modelo_conceitual.png`](https://github.com/GuilhermeBrevilato/modelagem_db_transacional/blob/main/diagrama_entidade_relacionamento.png)
    - `modelo_logico`
      - `modelo_logico.pdf`
      - `modelo_logico.png`  
    - `modelo_fisico`
       - `modelo_fisico.sql`
+      - `carga_ETL.sql`
+      - `views.sql`
+      - `Indexação.sql`
 
 3. **scripts**
    - `create_tables.sql`
@@ -44,43 +47,7 @@ Escalabilidade: Estrutura que permite futuras expansões, como vendas online.
 
 
 
-🏢 Entidades Principais
 
-Cliente 🧑‍💼
-
-Informações pessoais como nome, CPF, endereço e telefone.
-
-Vendedor 🏪
-
-Dados do funcionário, incluindo histórico de vendas.
-
-Produto 📦
-
-Identificação do item, nome, descrição, preço e estoque.
-
-Categoria 📂
-
-Classificação dos produtos por segmento (eletrodomésticos, vestuário, etc.).
-
-Loja 🏢
-
-Unidades físicas da rede, com endereço e telefone.
-
-Transação de Venda 🛒
-
-Registros de compras realizadas pelos clientes.
-
-Método de Pagamento 💳
-
-Formas de pagamento aceitas (cartão, dinheiro, etc.).
-
-Promoção 🔥
-
-Descontos aplicáveis aos produtos.
-
-Estoque 📊
-
-Quantidade de produtos disponíveis por loja.
 
 ProdutoTransação 🔄
 
