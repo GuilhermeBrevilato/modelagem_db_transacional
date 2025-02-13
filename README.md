@@ -20,7 +20,7 @@ Escalabilidade: Estrutura que permite futuras expansões, como vendas online.
 ## 📂 Estrutura do Projeto [modelagem_db_transacional](https://github.com/GuilhermeBrevilato/modelagem_db_transacional/blob/main/README.md)
 
 1. **modelagem_db_transacional**
-   - [`README.md`](https://github.com/GuilhermeBrevilato/modelagem_db_transacional/blob/main/README.md)  (este arquivo)
+   - [`README.md`](https://github.com/GuilhermeBrevilato/modelagem_db_transacional/blob/main/README.md)  
 
 2. **modelagem**
    - `modelo_conceitual`
