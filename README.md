@@ -28,7 +28,7 @@ Escalabilidade: Estrutura que permite futuras expansões, como vendas online.
      -  [`modelo_conceitual.pdf`](https://github.com/GuilhermeBrevilato/modelagem_db_transacional/blob/main/Modelo%20Conceitual.pdf)
      -  [`modelo_conceitual.png`](https://github.com/GuilhermeBrevilato/modelagem_db_transacional/blob/main/diagrama_entidade_relacionamento.png)
    - `modelo_logico`
-     - [`modelo_logico.pdf`](https://github.com/GuilhermeBrevilato/modelagem_db_transacional/blob/main/Modelo%20L%C3%B3gico.pdf)
+     - [`modelo_logico.pdf`](http://github.com/GuilhermeBrevilato/modelagem_db_transacional/blob/main/Modelo%20L%C3%B3gico.pdf)
      - [`modelo_logico.png`](https://github.com/GuilhermeBrevilato/modelagem_db_transacional/blob/main/diagrama_modelo_logico.png)
    - `modelo_fisico`
       - `modelo_fisico.sql`
