@@ -42,11 +42,8 @@ Escalabilidade: Estrutura que permite futuras expansões, como vendas online.
    - `relatorio_modelagem.pdf`
 
 5. **LICENSE**
+   - [`license`](https://github.com/GuilhermeBrevilato/modelagem_db_transacional/blob/main/license)
 
 
 
 
-
-ProdutoTransação 🔄
-
-Relação muitos-para-muitos entre produtos e transações.
