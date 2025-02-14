@@ -31,7 +31,7 @@ Escalabilidade: Estrutura que permite futuras expansões, como vendas online.
      - [`modelo_logico.pdf`](http://github.com/GuilhermeBrevilato/modelagem_db_transacional/blob/main/Modelo%20L%C3%B3gico.pdf)
      - [`modelo_logico.png`](https://github.com/GuilhermeBrevilato/modelagem_db_transacional/blob/main/diagrama_modelo_logico.png)
    - `modelo_fisico`
-      - `modelo_fisico.sql`
+      - [`modelo_fisico.sql`](https://github.com/GuilhermeBrevilato/modelagem_db_transacional/blob/main/modelo_fisico.sql)
       - `carga_ETL.sql`
       - `views.sql`
       - `Indexação.sql`
