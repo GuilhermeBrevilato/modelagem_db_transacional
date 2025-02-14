@@ -46,4 +46,40 @@ Escalabilidade: Estrutura que permite futuras expansões, como vendas online.
 
 
 
+---
+
+## 🛠️ **Como Usar o Projeto**
+
+Para utilizar este banco de dados, siga os passos abaixo:
+
+### **1️⃣ Configurar o Banco de Dados**
+1. Instale um **SGBD** compatível: **PostgreSQL, MySQL ou SQL Server**.  
+2. Crie um banco de dados no seu sistema.  
+
+```sql
+CREATE DATABASE varejo_db;
+
+```
+2️⃣ Criar as Tabelas
+
+
+Execute o seguinte comando para criar as tabelas:
+```sql
+psql -U usuario -d varejo_db -f modelagem/modelo_fisico/modelo_fisico.sql
+```
+
+3️⃣ Inserir Dados
+
+Se desejar popular o banco com dados de exemplo, execute:
+```sql
+psql -U usuario -d varejo_db -f modelagem/modelo_fisico/carga_ETL.sql
+```
+
+4️⃣ Criar Índices e Views (Opcional)
+
+Para melhorar a performance, rode os scripts adicionais:
+```sql 
+psql -U usuario -d varejo_db -f modelagem/modelo_fisico/Indexação.sql
+psql -U usuario -d varejo_db -f modelagem/modelo_fisico/views.sql
+```
 
