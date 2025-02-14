@@ -38,10 +38,7 @@ Escalabilidade: Estrutura que permite futuras expansões, como vendas online.
 
 
 
-4. **docs**
-   - `relatorio_modelagem.pdf`
-
-5. **LICENSE**
+3. **LICENSE**
    - [`license`](https://github.com/GuilhermeBrevilato/modelagem_db_transacional/blob/main/license)
 
 
@@ -79,7 +76,29 @@ psql -U usuario -d varejo_db -f modelagem/modelo_fisico/carga_ETL.sql
 
 Para melhorar a performance, rode os scripts adicionais:
 ```sql 
-psql -U usuario -d varejo_db -f modelagem/modelo_fisico/Indexação.sql
+psql -U usuario -d varejo_db -f modelagem/modelo_fisico/Indexacao.sql
 psql -U usuario -d varejo_db -f modelagem/modelo_fisico/views.sql
+```
+
+
+## 📜 **Exemplos de Consultas SQL**
+
+1️⃣ Listar os produtos mais vendidos
+
+```sql
+SELECT p.Nome, SUM(pt.Quantidade) AS TotalVendido
+FROM Produto p
+JOIN ProdutoTransacao pt ON p.ProdutoID = pt.ProdutoID
+GROUP BY p.Nome
+ORDER BY TotalVendido DESC;
+```
+2️⃣ Obter o total de vendas por cliente
+
+```sql
+SELECT c.Nome, SUM(t.ValorTotal) AS TotalGasto
+FROM Cliente c
+JOIN TransacaoVenda t ON c.ClienteID = t.ClienteID
+GROUP BY c.Nome
+ORDER BY TotalGasto DESC;
 ```
 
