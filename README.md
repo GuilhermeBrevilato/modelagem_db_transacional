@@ -45,7 +45,7 @@ Escalabilidade: Estrutura que permite futuras expansões, como vendas online.
 
 ---
 
-## 🛠️ **Como Usar o Projeto**
+## 🛠️ **Descrição do Projeto**
 
 Para utilizar este banco de dados, siga os passos abaixo:
 
