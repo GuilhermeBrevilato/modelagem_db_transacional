@@ -1,6 +1,6 @@
 
 -- Criação de um SCHEMA para inserção dos dados
-CREATE SCHEMA dsap2 AUTHORIZATION dsa;
+CREATE SCHEMA dsap2 AUTHORIZATION cliente_1;
 
 CREATE TABLE dsap2.Cliente (
     ClienteID SERIAL PRIMARY KEY,
