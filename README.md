@@ -7,7 +7,7 @@ Este projeto tem como objetivo modelar um banco de dados transacional para uma r
 
 
 
-Objetivos
+**Objetivos**
 
 Criar um banco de dados relacional estruturado, garantindo:
 
