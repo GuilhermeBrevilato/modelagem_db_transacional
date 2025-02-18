@@ -2,7 +2,7 @@
 
 **Visão Geral**
 
-Este projeto tem como objetivo modelar um banco de dados transacional para uma rede de varejo de lojas físicas. O banco de dados foi projetado para armazenar e gerenciar informações sobre clientes, vendedores, produtos, transações de venda, métodos de pagamento, promoções, estoque e lojas.
+Este projeto tem como objetivo modelar um banco de dados transacional para uma rede varejista. O banco de dados foi projetado para armazenar e gerenciar informações sobre clientes, vendedores, produtos, transações de venda, métodos de pagamento, promoções, estoque e lojas.
 
 <br/>
 <br/>
