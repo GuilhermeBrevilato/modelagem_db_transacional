@@ -26,7 +26,7 @@ Escalabilidade: Estrutura que permite futuras expansões, como vendas online.
 2. **modelagem**
    - `modelo_conceitual`
      -  [`modelo de negócio`](https://github.com/GuilhermeBrevilato/modelagem_db_transacional/blob/main/descricao_modelo_de_negocio.pdf)
-     -  [`modelo_conceitual.pdf`](https://github.com/GuilhermeBrevilato/modelagem_db_transacional_ecommerce/blob/main/Modelo_Conceitual.pdf)
+     -  [`modelo_conceitual.pdf`](https://github.com/GuilhermeBrevilato/modelagem_db_transacional_varejista/blob/main/modelo_conceitual.pdf)
      -  [`modelo_conceitual.png`](https://github.com/GuilhermeBrevilato/modelagem_db_transacional/blob/main/diagrama_entidade_relacionamento.png)
    - `modelo_logico`
      - [`modelo_logico.pdf`](https://github.com/GuilhermeBrevilato/modelagem_db_transacional_ecommerce/blob/main/modelo_logico.pdf)
