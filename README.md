@@ -16,7 +16,8 @@ Integridade dos dados: Definição correta de chaves primárias e estrangeiras.
 Otimização de consultas: Modelagem eficiente para consultas rápidas.
 
 Escalabilidade: Estrutura que permite futuras expansões, como vendas online.
-
+<br/>
+<br/>
 ## 📂 Estrutura do Projeto [modelagem_db_transacional](https://github.com/GuilhermeBrevilato/modelagem_db_transacional/blob/main/README.md)
 
 1. **modelagem_db_transacional**
