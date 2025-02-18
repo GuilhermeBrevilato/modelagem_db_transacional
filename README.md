@@ -4,8 +4,8 @@
 
 Este projeto tem como objetivo modelar um banco de dados transacional para uma rede de varejo. O banco de dados foi projetado para armazenar e gerenciar informações sobre clientes, vendedores, produtos, transações de venda, métodos de pagamento, promoções, estoque e lojas.
 
-
-
+<br/>
+<br/>
 
 **Objetivos**
 
@@ -42,27 +42,4 @@ Escalabilidade: Estrutura que permite futuras expansões, como vendas online.
    - [`license`](https://github.com/GuilhermeBrevilato/modelagem_db_transacional/blob/main/license)
 
 
-
----
-
-## 📜 **Exemplos de Consultas SQL**
-
-1️⃣ Listar os produtos mais vendidos
-
-```sql
-SELECT p.Nome, SUM(pt.Quantidade) AS TotalVendido
-FROM Produto p
-JOIN ProdutoTransacao pt ON p.ProdutoID = pt.ProdutoID
-GROUP BY p.Nome
-ORDER BY TotalVendido DESC;
-```
-2️⃣ Obter o total de vendas por cliente
-
-```sql
-SELECT c.Nome, SUM(t.ValorTotal) AS TotalGasto
-FROM Cliente c
-JOIN TransacaoVenda t ON c.ClienteID = t.ClienteID
-GROUP BY c.Nome
-ORDER BY TotalGasto DESC;
-```
 
